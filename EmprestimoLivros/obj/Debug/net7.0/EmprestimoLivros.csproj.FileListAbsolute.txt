@@ -63,3 +63,4 @@ E:\Projetos_C#\EmprestimoLivros\EmprestimoLivros\obj\Debug\net7.0\refint\Emprest
 E:\Projetos_C#\EmprestimoLivros\EmprestimoLivros\obj\Debug\net7.0\EmprestimoLivros.pdb
 E:\Projetos_C#\EmprestimoLivros\EmprestimoLivros\obj\Debug\net7.0\EmprestimoLivros.genruntimeconfig.cache
 E:\Projetos_C#\EmprestimoLivros\EmprestimoLivros\obj\Debug\net7.0\ref\EmprestimoLivros.dll
+E:\Projetos_C#\EmprestimoLivros\EmprestimoLivros\obj\Debug\net7.0\EmprestimoLivros.sourcelink.json

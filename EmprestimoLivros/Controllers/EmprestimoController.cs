@@ -19,10 +19,19 @@ namespace EmprestimoLivros.Controllers
             return View(emprestimos);
         }
 
+        [HttpGet]
         public IActionResult Cadastrar()
         {
             return View();
         }
+
+        [HttpGet]
+        public IActionResult Editar()
+        {
+            return View();
+        }
+
+
 
         [HttpPost]
         public IActionResult Cadastrar(EmprestimosModel emprestimos)
