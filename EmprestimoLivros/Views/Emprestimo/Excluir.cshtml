@@ -9,7 +9,7 @@
     </div>
     <form method="post" asp-controller="Emprestimo" asp-action="Excluir">
         <input type="hidden" asp-for=Id />
-        <h2>Tem certeza que deseja excluir o registro abaixo??</h2>
+        <h2 class="text-light">Tem certeza que deseja excluir o registro abaixo??</h2>
         <div class="mb-3">
             <label for="Recebedor" class="text-light form-label">Recebedor:</label>
             <input type="text" asp-for="Recebedor" class="shadow-none form-control text-dark" id="exampleInputRecebedor" placeholder="Quem está recebendo o livro?" disabled>
