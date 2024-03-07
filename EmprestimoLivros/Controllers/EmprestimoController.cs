@@ -43,6 +43,19 @@ namespace EmprestimoLivros.Controllers
         }
 
         [HttpPost]
+        public IActionResult Editar(EmprestimosModel emprestimos)
+        {
+            if (ModelState.IsValid)
+            {
+                _db.Emprestimos.Update(emprestimos);
+                _db.SaveChanges();
+
+                return RedirectToAction("Index");
+            }
+            return View(emprestimos);
+        }
+
+        [HttpPost]
         public IActionResult Cadastrar(EmprestimosModel emprestimos)
         {
             if (ModelState.IsValid)
