@@ -1,0 +1,17 @@
+
+
+
+Pacotes
+    Microsoft.EntityFrameworkCore
+    Microsoft.EntityFrameworkCore.Design
+    Microsoft.EntityFrameworkCore.SqlServer
+    Microsoft.EntityFrameworkCore.Tools
+    ClosedXML
+    
+Comando para Criar Migration de Criar o Banco
+add-migration CriacaoDoBanco
+
+Comando para Atualizar o Banco de Dados
+update-database
+
+CTRL + K + C - Comenta a linha inteira
