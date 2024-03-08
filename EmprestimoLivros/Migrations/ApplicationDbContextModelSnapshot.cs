@@ -42,7 +42,7 @@ namespace EmprestimoLivros.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<DateTime>("dataUltimaAtualizacao")
+                    b.Property<DateTime>("DataEmprestimo")
                         .HasColumnType("datetime2");
 
                     b.HasKey("Id");

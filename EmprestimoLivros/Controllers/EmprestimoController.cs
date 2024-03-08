@@ -92,7 +92,7 @@ namespace EmprestimoLivros.Controllers
             {
                 dados.ForEach(emprestimo =>
                 {
-                    dataTable.Rows.Add(emprestimo.Recebedor, emprestimo.Fornecedor, emprestimo.LivroEmprestado, emprestimo.dataUltimaAtualizacao);
+                    dataTable.Rows.Add(emprestimo.Recebedor, emprestimo.Fornecedor, emprestimo.LivroEmprestado, emprestimo.DataEmprestimo);
                 });
             }
 
@@ -144,7 +144,7 @@ namespace EmprestimoLivros.Controllers
         {
             if (ModelState.IsValid)
             {
-                emprestimos.dataUltimaAtualizacao = DateTime.Now;
+                emprestimos.DataEmprestimo = DateTime.Now;
 
                 _db.Emprestimos.Add(emprestimos);
                 _db.SaveChanges();
