@@ -144,6 +144,8 @@ namespace EmprestimoLivros.Controllers
         {
             if (ModelState.IsValid)
             {
+                emprestimos.dataUltimaAtualizacao = DateTime.Now;
+
                 _db.Emprestimos.Add(emprestimos);
                 _db.SaveChanges();
 
