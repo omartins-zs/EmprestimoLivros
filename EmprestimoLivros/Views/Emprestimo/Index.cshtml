@@ -9,7 +9,15 @@
             Cadastrar novo empréstimo
         </a>
     </div>
-    <table class="table table-light table-hover mt-5">
+
+    @if (TempData["MensagemSucesso"] != null)
+    {
+        <div class="alert alert-success text-light" role="alert">
+            @TempData["MensagemSucesso"]
+        </div>
+    }
+
+    <table class="table table-light table-hover mt-5" id="emprestimos">
 
         <thead>
             <tr>
