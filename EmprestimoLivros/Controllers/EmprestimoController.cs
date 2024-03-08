@@ -85,9 +85,11 @@ namespace EmprestimoLivros.Controllers
 
                 TempData["MensagemSucesso"] = "Edição realizada com sucesso!";
 
-
                 return RedirectToAction("Index");
             }
+
+            TempData["MensagemErro"] = "Algum erro ocorreu ao realizar a edição!";
+
             return View(emprestimos);
         }
 
