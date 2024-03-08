@@ -18,7 +18,7 @@ namespace EmprestimoLivros.Migrations
                     Recebedor = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     Fornecedor = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     LivroEmprestado = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    DataEmprestimo = table.Column<DateTime>(type: "datetime2", nullable: false)
+                    dataUltimaAtualizacao = table.Column<DateTime>(type: "datetime2", nullable: false)
                 },
                 constraints: table =>
                 {

@@ -5,8 +5,12 @@
       "PackagePath": "staticwebassets\\EmprestimoLivros.bundle.scp.css"
     },
     {
-      "Id": "E:\\Projetos_C#\\EmprestimoLivros\\EmprestimoLivros\\wwwroot\\css\\Materia.css",
-      "PackagePath": "staticwebassets\\css\\Materia.css"
+      "Id": "E:\\Projetos_C#\\EmprestimoLivros\\EmprestimoLivros\\wwwroot\\css\\Darkly.css",
+      "PackagePath": "staticwebassets\\css\\Darkly.css"
+    },
+    {
+      "Id": "E:\\Projetos_C#\\EmprestimoLivros\\EmprestimoLivros\\wwwroot\\css\\Lumen.css",
+      "PackagePath": "staticwebassets\\css\\Lumen.css"
     },
     {
       "Id": "E:\\Projetos_C#\\EmprestimoLivros\\EmprestimoLivros\\wwwroot\\css\\site.css",

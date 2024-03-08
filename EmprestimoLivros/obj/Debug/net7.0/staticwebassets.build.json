@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "bS0/8OPJqEfohvao1MdeFIlY6qCbjafLC/MiR2urPNQ=",
+  "Hash": "MYr+m77RoePRjBAKOzJPBd9fxKjnL2H9eELuZ4v0XT4=",
   "Source": "EmprestimoLivros",
   "BasePath": "_content/EmprestimoLivros",
   "Mode": "Default",
@@ -55,12 +55,12 @@
       "OriginalItemSpec": "E:\\Projetos_C#\\EmprestimoLivros\\EmprestimoLivros\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\EmprestimoLivros.bundle.scp.css"
     },
     {
-      "Identity": "E:\\Projetos_C#\\EmprestimoLivros\\EmprestimoLivros\\wwwroot\\css\\Materia.css",
+      "Identity": "E:\\Projetos_C#\\EmprestimoLivros\\EmprestimoLivros\\wwwroot\\css\\Darkly.css",
       "SourceId": "EmprestimoLivros",
       "SourceType": "Discovered",
       "ContentRoot": "E:\\Projetos_C#\\EmprestimoLivros\\EmprestimoLivros\\wwwroot\\",
       "BasePath": "_content/EmprestimoLivros",
-      "RelativePath": "css/Materia.css",
+      "RelativePath": "css/Darkly.css",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -71,7 +71,26 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\Materia.css"
+      "OriginalItemSpec": "wwwroot\\css\\Darkly.css"
+    },
+    {
+      "Identity": "E:\\Projetos_C#\\EmprestimoLivros\\EmprestimoLivros\\wwwroot\\css\\Lumen.css",
+      "SourceId": "EmprestimoLivros",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Projetos_C#\\EmprestimoLivros\\EmprestimoLivros\\wwwroot\\",
+      "BasePath": "_content/EmprestimoLivros",
+      "RelativePath": "css/Lumen.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\Lumen.css"
     },
     {
       "Identity": "E:\\Projetos_C#\\EmprestimoLivros\\EmprestimoLivros\\wwwroot\\css\\site.css",
